@@ -20,7 +20,7 @@ int main(int argc, char *argv[]){
             msum += i;
         }
     }
-	printf("Difference msum and csum = %d\n", csum-msum);
+    printf("Difference msum and csum = %d\n", csum-msum);
     return 0;
 }
 void *runner(void *param){
